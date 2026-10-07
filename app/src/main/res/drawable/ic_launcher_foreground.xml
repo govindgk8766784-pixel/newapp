@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Passport Photo Frame -->
+    <path
+        android:fillColor="#1A38BDF8"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:pathData="M33,26 h42 c3.3,0 6,2.7 6,6 v44 c0,3.3 -2.7,6 -6,6 h-42 c-3.3,0 -6,-2.7 -6,-6 v-44 c0,-3.3 2.7,-6 6,-6 z" />
+
+    <!-- Corner Crop / Alignment Marks -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#818CF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M24,35 v-9 h9 M75,26 h9 v9 M84,73 v9 h-9 M33,82 h-9 v-9" />
+
+    <!-- Person / Passport Biometric Silhouette -->
+    <!-- Head -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,41 m-7.5,0 a7.5,7.5 0 1,0 15,0 a7.5,7.5 0 1,0 -15,0" />
+
+    <!-- Shoulders -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M39,67 c0,-6.5 6.7,-11 15,-11 c8.3,0 15,4.5 15,11 v3 h-30 z" />
+
+    <!-- Camera Shutter / Focus ring indicator -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="1.8"
+        android:pathData="M54,54 m-21,0 a21,21 0 1,0 42,0 a21,21 0 1,0 -42,0" />
+
+    <!-- Magic Wand AI Retouch Sparkle Star -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M75,30 c0,3 2,5 5,5 c-3,0 -5,2 -5,5 c0,-3 -2,-5 -5,-5 c3,0 5,-2 5,-5 z" />
+
+    <!-- Secondary mini sparkle -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M34,68 c0,2 1.2,3.2 3.2,3.2 c-2,0 -3.2,1.2 -3.2,3.2 c0,-2 -1.2,-3.2 -3.2,-3.2 c2,0 3.2,-1.2 3.2,-3.2 z" />
+
+</vector>

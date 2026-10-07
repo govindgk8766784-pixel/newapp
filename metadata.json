@@ -1,0 +1,6 @@
+{
+  "name": "PixelPro",
+  "description": "Professional Studio for Passport Photos, Aadhaar & ID Cards, Document Scanning, Background Removal, and Print Sheets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
